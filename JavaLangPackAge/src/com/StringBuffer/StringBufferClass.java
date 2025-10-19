@@ -1,0 +1,32 @@
+package com.StringBuffer;
+
+public class StringBufferClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuffer sb = new StringBuffer();
+		System.out.println(sb.capacity());
+
+		StringBuffer sbs = new StringBuffer("srinu katta");
+		StringBuffer s = sbs.append("yadav");
+
+		System.out.println(s);
+		System.out.println(sbs.append("rap"));
+		System.out.println(sbs.length());
+
+		StringBuffer ss = new StringBuffer("java is a high deminod programming lang");
+		System.out.println(ss);
+		String o = new String(ss);
+		System.out.println(o.toUpperCase());
+		System.out.println(ss.capacity());
+
+		System.out.println(ss.reverse());
+		System.out.println(ss.charAt(28));
+		
+		System.out.println(ss.delete(10, 20));
+ss.setLength(5);
+System.out.println(ss);
+
+	}
+
+}

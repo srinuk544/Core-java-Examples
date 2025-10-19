@@ -1,0 +1,33 @@
+package com.Objectclass;
+
+public class ObjectClassDemo {
+	
+	String name;
+	int id;
+	public ObjectClassDemo (String name,int id) {
+		this.name=name;
+		this.id=id;
+		
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "ObjectClassDemo [name=" + name + ", id=" + id + "]";
+	}
+
+
+	public static void main(String[] args) {
+		ObjectClassDemo o1=new ObjectClassDemo("srinu ", 10);
+		ObjectClassDemo o2=new ObjectClassDemo("vasu ", 20);
+		ObjectClassDemo o3=new ObjectClassDemo("venu ", 30);
+		ObjectClassDemo o4=new ObjectClassDemo("venkat ", 40);
+		//for toString
+	System.out.println(o1);
+	//System.out.println(o1.toString());
+	
+	
+	
+	}
+
+}
